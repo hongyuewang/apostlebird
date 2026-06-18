@@ -8,17 +8,18 @@
     src: url('fonts/metali~1.ttf');
 }
 
-html, body {
+html,
+body {
     background-color: black;
     color: white;
     font-family: 'VTypewriter SmithUpright', Courier, monospace;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 h1 {
     text-align: center;
     font-family: 'Metallic Avocado', Courier, monospace;
-    font-size: 3vw;
+    font-size: 1.5em;
     font-weight: normal;
 }
 
@@ -30,4 +31,35 @@ table {
 
 a {
     color: #EE2E31;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .content-wrapper {
+        width: 75%;
+        min-width: 320px;
+    }
 }

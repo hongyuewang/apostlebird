@@ -2,17 +2,8 @@ p {
     text-align: center;
 }
 
-.container {
-    width: 25%;
-    margin: 0 auto;
-}
-
 .squid, .loop {
     cursor: pointer;
-}
-
-.squid {
-    max-width: 100%;
 }
 
 .squid:hover {
