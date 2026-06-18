@@ -1,0 +1,17 @@
+.container {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.squid, .loop {
+    cursor: pointer;
+}
+
+.squid:hover {
+    filter: invert(1);
+}
+
+.loop:hover {
+    color: #EE2E31;
+}

@@ -1,0 +1,24 @@
+html, body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1vw;
+    /* trixie, 
+    https://www.brainwashed.com/godspeed/main.html */
+}
+
+h1 {
+    text-align: center;
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+table {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    color: #EE2E31;
+}
