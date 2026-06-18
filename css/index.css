@@ -1,11 +1,18 @@
+p {
+    text-align: center;
+}
+
 .container {
     width: 25%;
     margin: 0 auto;
-    text-align: center;
 }
 
 .squid, .loop {
     cursor: pointer;
+}
+
+.squid {
+    max-width: 100%;
 }
 
 .squid:hover {
