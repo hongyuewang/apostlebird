@@ -1,0 +1,45 @@
+ol {
+    text-align: left;
+    max-width: 100%;
+    padding-left: 0;
+}
+
+ol a {
+    color: white;
+    text-decoration: none;
+}
+
+ol a:hover {
+    color: #EE2E31;
+    text-decoration: underline;
+}
+
+.content-container {
+    width: 50%;
+}
+
+.release-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.release-cover {
+    margin: 2em;
+    max-width: 30%;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .release-container {
+        flex-direction: column;
+    }
+
+    .release-cover {
+        margin: 2em auto;
+        max-width: 100%;
+    }
+}

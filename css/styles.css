@@ -42,7 +42,7 @@ img {
     flex-direction: column;
 }
 
-.content-wrapper {
+.content-container {
     width: 25%;
     margin: 3rem auto;
     text-align: center;
@@ -58,7 +58,7 @@ img {
         flex-direction: column;
     }
 
-    .content-wrapper {
+    .content-container {
         width: 75%;
         min-width: 320px;
     }
