@@ -23,18 +23,18 @@ h1 {
     font-weight: normal;
 }
 
-table {
-    width: 25%;
-    margin: 0 auto;
-    text-align: center;
-}
-
 a {
     color: #EE2E31;
 }
 
 img {
     max-width: 100%;
+}
+
+.nav-bar {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .container {
@@ -50,7 +50,7 @@ img {
 
 /* mobile */
 @media (max-width: 768px) {
-    table {
+    .nav-bar {
         width: 100%;
     }
 

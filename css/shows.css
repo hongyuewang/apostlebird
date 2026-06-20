@@ -1,0 +1,39 @@
+.content-container {
+    width: 100%;
+}
+
+.show-list-table {
+    max-width: 95%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#id {
+    width: 20%;
+}
+
+#venue {
+    width: 20%;
+}
+
+#set-list {
+    width: 40%;
+}
+
+#other-info {
+    width: 20%;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+    .show-list-table,
+    .show-list-table td, .show-list-table tr {
+        display: block;
+        border: none;
+    }
+
+    thead {
+        display: none;
+    }
+}
