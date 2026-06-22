@@ -22,10 +22,7 @@ ol a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.75em;
-    font-weight: bold;
-}
+    font-size: 0.8em;
 
 .release-cover {
     margin: 2em;
