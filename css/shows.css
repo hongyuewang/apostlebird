@@ -2,14 +2,20 @@
     width: 100%;
 }
 
-.show-list-table {
+.show-list-table,
+.show-list-table th,
+.show-list-table td,
+.show-list-table tr {
     max-width: 95%;
     text-align: left;
     margin: 0 auto;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-collapse: collapse;
 }
 
-#id {
-    width: 20%;
+#date {
+    width: 15%;
 }
 
 #venue {
@@ -17,18 +23,19 @@
 }
 
 #set-list {
-    width: 40%;
+    width: 35%;
 }
 
 #other-info {
-    width: 20%;
+    width: 30%;
 }
 
 /* mobile */
 @media (max-width: 768px) {
 
     .show-list-table,
-    .show-list-table td, .show-list-table tr {
+    .show-list-table td,
+    .show-list-table tr {
         display: block;
         border: none;
     }
