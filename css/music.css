@@ -23,6 +23,7 @@ ol a:hover {
     flex-direction: row;
     justify-content: space-between;
     font-size: 0.8em;
+}
 
 .release-cover {
     margin: 2em;
