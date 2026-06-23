@@ -32,6 +32,9 @@
 
 /* mobile */
 @media (max-width: 768px) {
+    thead {
+        display: none;
+    }
 
     .show-list-table,
     .show-list-table td,
@@ -40,7 +43,37 @@
         border: none;
     }
 
-    thead {
-        display: none;
+    .show-list-table tr {
+        border: 1px solid white;
+    }
+
+    .show-list-table td {
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .show-list-table td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .show-list-table td:nth-of-type(1):before {
+        content: "date";
+    }
+
+    .show-list-table td:nth-of-type(2):before {
+        content: "venue";
+    }
+
+    .show-list-table td:nth-of-type(3):before {
+        content: "setlist";
+    }
+
+    .show-list-table td:nth-of-type(4):before {
+        content: "other info";
     }
 }
